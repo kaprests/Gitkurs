@@ -1,4 +1,4 @@
-# Git-kurs notater
+# Gitkurs - tentative notater
 
 - Hva er Git?
     - Git != Github
