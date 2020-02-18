@@ -20,57 +20,150 @@
         \end{block} 
 
         \begin{itemize}
-            \item Versjonkontroll
+            \item Git
+                \begin{itemize}
+                    \item versjonkontrollsprogram
+                \end{itemize}
+            \item GitHub
+                \begin{itemize}
+                    \item Vertstjeneste for git-repoer
+                    \item Finnes flere alternativer (GitLab, Bitbucket etc.)
+                \end{itemize}
         \end{itemize}
     }
 
-
     \frame{
         \frametitle{Terminologi}
+        Noen viktige begreper
         \begin{itemize}
             \item Commit
             \item Branch
             \item Repository
+                \begin{itemize}
+                    \item lokalt/remote
+                \end{itemize}
         \end{itemize}
+        Om en forstår disse begrepene forstår en git
     }
 
     \frame{
         \frametitle{Commit}
+        Et slags "snapshot" av koden/prosjektet
+        \\
+        En commit består av:
+        \begin{itemize}
+            \item Endring fra forrige commit
+            \item forelder
+            \item hashkode
+            \item metadata
+        \end{itemize}
+        En oppretter commits på logiske/taktiske tidpunkter, f.eks. etter å ha fikset en bug 
+        eller implementert en ny funksjon.
+        \\-\\
+        En kan alltid returnere til en tidligere commit
     }
 
     \frame{
         \frametitle{Branch}
+        Alle commits tilhører en branch\\
+        Hovedbranch: master \\
+        Head: referanse til nåverende branch\\
+        Merging
+        \begin{itemize}
+            \item Sammenslåing av branches
+            \item Mergekonflikter
+        \end{itemize}
+        For større endringer (mer enn en commit) oppretter en gjerne en egen branch som man commiter endringene 
+        på, før en merger den inn i master.
     }
 
     \frame{
         \frametitle{Repository}
+        Som regel prosjektmappen\\
+        Inneholder:
+        \begin{itemize}
+            \item Alle filene du vil holde styr på og deres historikk
+            \item Alle commits
+        \end{itemize}
+        Kan lagres på f.eks. GitHub
+        \begin{itemize}
+            \item cloning
+            \item pull/push 
+        \end{itemize}
     }
 
     \frame{
         \frametitle{Hvordan bruke git}
-        presentere måter...
-
-        Vi bruker kommandolinjen
+        Det finnes GUI
+        \begin{itemize}
+            \item ikke standard
+        \end{itemize}
+        Standard å bruke kommandolinjen\\
+        Ulike IDE-er har ofte git-integrasjon og mulighet for å gjøre ting med GUI
     }
 
     \frame{
         \frametitle{Kommandoer}
+        Oversikt over de viktigste kommandoene
+        \begin{itemize}
+            \item git init
+            \item git add
+            \item git commit
+            \item git pull
+            \item git push
+            \item git branch
+            \item git checkout
+            \item git merge
+            \item git clone
+        \end{itemize}
     }
 
     \frame{
-        \frametitle{Git arbeidsflyt - lokalt repo med kun deg}
+        \frametitle{Git arbeidsflyt - lokalt repo på din pc}
+        \begin{itemize}
+            \item Gjør endringer
+            \item stage endringer med git add
+            \item lag commit med git commit
+        \end{itemize}
     }
 
     \frame{
         \frametitle{Git arbeidsflyt - repo med kun deg, med remote}
+        \begin{itemize}
+            \item Gjør endringer
+            \item stage endringer med git add
+            \item lag commit med git commit
+            \item push endringer til origin (GitHub) med git push
+        \end{itemize}
     }
 
     \frame{
         \frametitle{Git arbeidsflyt - remote med flere bidragsytere, liten endring}
+        \begin{itemize}
+            \item Gjør endringer
+            \item stage endringer med git add
+            \item lag commit med git commit
+            \item hent nyeste versjon fra origin med git pull
+            \item push endringer til origin (GitHub) med git push
+        \end{itemize}
     }
 
     \frame{
         \frametitle{Git arbeidsflyt - remote med flere bidragsytere, større endring}
+        \begin{itemize}
+            \item Lag ny branch med git branch \textless navn på ny branch\textgreater
+            \item Bytt til din nye branch med git checkout \textless navn på branch\textgreater
+            \item Gjenta til endringen er klar
+                \begin{itemize}
+                    \item Gjør endringer
+                    \item stage endringer med git add
+                    \item lag commit med git commit
+                \end{itemize}
+            \item Bytt til master branch med git checkout master
+            \item Hent nyeste versjon fra origin med git pull
+            \item Merge din branch med endringer inn i master med git merge \textless navn på din branch\textgreater
+            \item push endringer til origin (GitHub) med git push
+        \end{itemize}
     }
 
     \frame{
