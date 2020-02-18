@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.2.11)  14 FEB 2020 17:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.2.11)  18 FEB 2020 19:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -625,10 +625,123 @@ Package: amsthm 2017/10/31 v2.20.4
 \beamer@dimb=\dimen188
 )
 (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
-(/usr/share/texmf-dist/tex/latex/beamer/beamerthemeSingapore.sty
-(/usr/share/texmf-dist/tex/latex/beamer/beamerouterthememiniframes.sty))
-(/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemeseagull.sty)
-(./gitkurs.aux)
+(./beamerthememetropolis.sty
+Package: beamerthememetropolis 2017/01/23 v1.2 Metropolis Beamer theme
+
+(/usr/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+\pgfopts@list@add@a@toks=\toks43
+\pgfopts@list@add@b@toks=\toks44
+)
+(./beamerinnerthememetropolis.sty
+Package: beamerinnerthememetropolis 2017/01/23 Metropolis inner theme
+
+(/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count157
+\calc@Bcount=\count158
+\calc@Adimen=\dimen189
+\calc@Bdimen=\dimen190
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count159
+\calc@Cskip=\skip59
+)
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2019/08/03 v3.1.4b (3.1.4b)
+
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfnodeparttextbox=\box55
+)
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@nodesepstart=\dimen191
+\pgf@nodesepend=\dimen192
+)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2019/08/03 v3.1.4b (3.1.4b)
+))
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
+
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen193
+\pgffor@skip=\dimen194
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2019/08/03 v3.1.4b (3.1.4b)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
+x
+File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@plot@mark@count=\count160
+\pgfplotmarksize=\dimen195
+)
+\tikz@lastx=\dimen196
+\tikz@lasty=\dimen197
+\tikz@lastxsaved=\dimen198
+\tikz@lastysaved=\dimen199
+\tikz@lastmovetox=\dimen256
+\tikz@lastmovetoy=\dimen257
+\tikzleveldistance=\dimen258
+\tikzsiblingdistance=\dimen259
+\tikz@figbox=\box56
+\tikz@figbox@bg=\box57
+\tikz@tempbox=\box58
+\tikz@tempbox@bg=\box59
+\tikztreelevel=\count161
+\tikznumberofchildren=\count162
+\tikznumberofcurrentchild=\count163
+\tikz@fig@count=\count164
+ (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfmatrixcurrentrow=\count165
+\pgfmatrixcurrentcolumn=\count166
+\pgf@matrix@numberofcolumns=\count167
+)
+\tikz@expandcount=\count168
+
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+topaths.code.tex
+File: tikzlibrarytopaths.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)))
+\metropolis@titleseparator@linewidth=\skip60
+\metropolis@progressonsectionpage=\skip61
+\metropolis@progressonsectionpage@linewidth=\skip62
+\metropolis@blocksep=\skip63
+\metropolis@blockadjust=\skip64
+\metropolis@parskip=\skip65
+) (./beamerouterthememetropolis.sty
+Package: beamerouterthememetropolis 2017/01/23 Metropolis outer theme
+\metropolis@frametitle@padding=\skip66
+\metropolis@progressinheadfoot=\skip67
+\metropolis@progressinheadfoot@linewidth=\skip68
+)
+(./beamercolorthememetropolis.sty
+Package: beamercolorthememetropolis 2017/01/23 Metropolis color theme
+) (./beamerfontthememetropolis.sty
+Package: beamerfontthememetropolis 2017/01/23 Metropolis font theme
+
+
+Package beamerthememetropolis Warning: You need to compile with XeLaTeX or LuaL
+aTeX to use the Fira fonts on input line 95.
+
+)) (./gitkurs.aux)
 \openout1 = `gitkurs.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -682,17 +795,17 @@ LaTeX Font Info:    ... okay on input line 9.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count157
-\scratchdimen=\dimen189
-\scratchbox=\box55
-\nofMPsegments=\count158
-\nofMParguments=\count159
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count160
-\MPscratchDim=\dimen190
-\MPnumerator=\count161
-\makeMPintoPDFobject=\count162
-\everyMPtoPDFconversion=\toks44
+\scratchcounter=\count169
+\scratchdimen=\dimen260
+\scratchbox=\box60
+\nofMPsegments=\count170
+\nofMParguments=\count171
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count172
+\MPscratchDim=\dimen261
+\MPnumerator=\count173
+\makeMPintoPDFobject=\count174
+\everyMPtoPDFconversion=\toks48
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -711,7 +824,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box56
+\AtBeginShipoutBox=\box61
 Package hyperref Info: Link coloring OFF on input line 9.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -720,7 +833,7 @@ Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count163
+\c@section@level=\count175
 )
 LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
@@ -805,30 +918,44 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texmf-dist/tex/latex/translator/translator-theorem-dictionary-Engli
 sh.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./gitkurs.nav) [1
+) (./gitkurs.nav)
+Overfull \vbox (44.55656pt too high) detected at line 12
+ []
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
+
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 21.
+ut line 25.
 
 (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) [2
+)
+LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 
+25.
+LaTeX Font Info:    No file OMScmss.fd. on input line 25.
 
-]
-[3
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 25.
+
+[2
+
+] [3
 
 ] [4
 
@@ -860,30 +987,35 @@ thkerncmss.
 \tf@snm=\write8
 \openout8 = `gitkurs.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
  (./gitkurs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
 Package rerunfilecheck Info: File `gitkurs.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
  ) 
 Here is how much of TeX's memory you used:
- 17670 strings out of 492167
- 332254 string characters out of 6131558
- 411771 words of memory out of 5000000
- 21615 multiletter control sequences out of 15000+600000
- 15952 words of font info for 58 fonts, out of 8000000 for 9000
+ 20929 strings out of 492167
+ 411384 string characters out of 6131558
+ 483083 words of memory out of 5000000
+ 24815 multiletter control sequences out of 15000+600000
+ 12458 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,15n,57p,774b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,13n,79p,1850b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb>
-Output written on gitkurs.pdf (13 pages, 55842 bytes).
+c/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on gitkurs.pdf (13 pages, 63205 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
- 342 compressed objects within 4 object streams
+ 115 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  27 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
