@@ -1,15 +1,20 @@
 \documentclass{beamer}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage[norsk]{babel}
 
 \title{Git-kurs}
 \subtitle{Versjonkontroll med WebKom}
+\institute{\url{https://github.com/kaprests/Gitkurs}}  % Don't want to bother, hack
 
 \usetheme{metropolis}
 %\usecolortheme{seagull}
 
 \begin{document}
-    \frame{
-        \titlepage
-    }
+\frame{
+  \titlepage
+}
 
     \frame{
         \frametitle{Hva er git?}
@@ -22,7 +27,7 @@
         \begin{itemize}
             \item Git
                 \begin{itemize}
-                    \item versjonkontrollsprogram
+                    \item Versjonkontrollprogram
                 \end{itemize}
             \item GitHub
                 \begin{itemize}
@@ -31,35 +36,47 @@
                 \end{itemize}
         \end{itemize}
     }
+    
+    \frame{
+      \frametitle{Hva er git?}
+
+      \begin{itemize}
+      \item Tar ``bilde'' av koden når du vil\\
+      \item Gjør det enkelt å bla mellom ulike ``bilder''\\
+      \item Man kan dele ``bildene'' med andre
+      \end{itemize}
+    }
 
     \frame{
         \frametitle{Terminologi}
         Noen viktige begreper
+        \begin{wrapfigure}{r}{0.4\textwidth}
+          \includegraphics[width=0.5\textwidth]{branch.png}
+        \end{wrapfigure}
         \begin{itemize}
             \item Commit
             \item Branch
             \item Repository
                 \begin{itemize}
-                    \item lokalt/remote
+                    \item Lokalt/remote
                 \end{itemize}
         \end{itemize}
-        Om en forstår disse begrepene forstår en git
+        Om en forstår disse begrepene forstår en git.
     }
 
     \frame{
         \frametitle{Commit}
-        Et slags "snapshot" av koden/prosjektet
+        Et slags ``snapshot'' av koden/prosjektet.
         \\
         En commit består av:
         \begin{itemize}
             \item Endring fra forrige commit
-            \item forelder
-            \item hashkode
-            \item metadata
+            \item Forelder
+            \item Hashkode
+            \item Metadata
         \end{itemize}
         En oppretter commits på logiske/taktiske tidpunkter, f.eks. etter å ha fikset en bug 
-        eller implementert en ny funksjon.
-        \\-\\
+        eller implementert en ny funksjon.\\\vspace{1em}
         En kan alltid returnere til en tidligere commit
     }
 
@@ -120,50 +137,50 @@
 
     \frame{
         \frametitle{Git arbeidsflyt - lokalt repo på din pc}
-        \begin{itemize}
+        \begin{enumerate}
             \item Gjør endringer
-            \item stage endringer med git add
-            \item lag commit med git commit
-        \end{itemize}
+            \item Stage endringer med git add
+            \item Lag commit med git commit
+        \end{enumerate}
     }
 
     \frame{
         \frametitle{Git arbeidsflyt - repo med kun deg, med remote}
-        \begin{itemize}
+        \begin{enumerate}
             \item Gjør endringer
-            \item stage endringer med git add
-            \item lag commit med git commit
-            \item push endringer til origin (GitHub) med git push
-        \end{itemize}
+            \item Stage endringer med git add
+            \item Lag commit med git commit
+            \item Push endringer til origin (GitHub) med git push
+        \end{enumerate}
     }
 
     \frame{
         \frametitle{Git arbeidsflyt - remote med flere bidragsytere, liten endring}
-        \begin{itemize}
+        \begin{enumerate}
             \item Gjør endringer
-            \item stage endringer med git add
-            \item lag commit med git commit
-            \item hent nyeste versjon fra origin med git pull
-            \item push endringer til origin (GitHub) med git push
-        \end{itemize}
+            \item Stage endringer med git add
+            \item Lag commit med git commit
+            \item Hent nyeste versjon fra origin med git pull
+            \item Push endringer til origin (GitHub) med git push
+        \end{enumerate}
     }
 
     \frame{
         \frametitle{Git arbeidsflyt - remote med flere bidragsytere, større endring}
-        \begin{itemize}
+        \begin{enumerate}
             \item Lag ny branch med git branch \textless navn på ny branch\textgreater
             \item Bytt til din nye branch med git checkout \textless navn på branch\textgreater
             \item Gjenta til endringen er klar
-                \begin{itemize}
+                \begin{enumerate}
                     \item Gjør endringer
-                    \item stage endringer med git add
-                    \item lag commit med git commit
-                \end{itemize}
+                    \item Stage endringer med git add
+                    \item Lag commit med git commit
+                \end{enumerate}
             \item Bytt til master branch med git checkout master
             \item Hent nyeste versjon fra origin med git pull
             \item Merge din branch med endringer inn i master med git merge \textless navn på din branch\textgreater
-            \item push endringer til origin (GitHub) med git push
-        \end{itemize}
+            \item Push endringer til origin (GitHub) med git push
+        \end{enumerate}
     }
 
     \frame{
@@ -218,6 +235,15 @@
             \item mkdir \textless mappenavn\textgreater  - Opprett ny mappe
         \end{itemize}
     }
+
+    \frame{
+      \frametitle{Avsluttende tips}
+
+      \textbf{GitHub Pro}\\
+      Som student har du rett på GitHub Pro gjennom GitHub Education, dette er helt gratis!
+      Se \url{https://education.github.com/pack}.
+
+      \textbf{Grafisk tutorial på avansert bruk}
+      \url{https://learngitbranching.js.org}
+    }
 \end{document}
-
-
