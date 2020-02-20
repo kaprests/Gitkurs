@@ -1,5 +1,7 @@
 # Gitkurs - tentative notater
 
+Slides: [gitkurs.pdf](https://github.com/kaprests/Gitkurs/blob/master/gitkurs.pdf)
+
 - Hva er Git?
     - Git != Github
     - versjonskontroll
